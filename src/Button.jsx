@@ -27,12 +27,12 @@ export default function Button({
     : "cursor-pointer";
 
   return (
-    <>
+    <div className="flex justify-center m-2">
       <button
-        className={`rounded ${sizeClassName[size]} ${colorClasses[color]} ${disabledClasses}`}
+        className={`rounded flex flex-col  ${sizeClassName[size]} ${colorClasses[color]} ${disabledClasses}`}
         disabled={disabled}>
         {title}
       </button>
-    </>
+    </div>
   );
 }
