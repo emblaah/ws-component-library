@@ -1,9 +1,3 @@
-const sizes = {
-  large: "largeButton",
-  medium: "mediumButton",
-  small: "smallButton",
-};
-
 export default function Button({
   size = "medium",
   color = "red",
