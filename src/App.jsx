@@ -28,8 +28,8 @@ function App() {
         imgSrc={"https://placehold.co/400"}
         imgAlt={"placeholder image"}
         href={"https://placehold.co/"}>
-        <h2 className="text-2xl px-2 pt-2">Noteworthy technology acquisitions 2021</h2>
-        <p className="px-3 pb-2">
+        <h2 className="text-2xl">Noteworthy technology acquisitions 2021</h2>
+        <p className="">
           Here are the biggest enterprise technology acquisitions of 2021 so
           far, in reverse chronological order.
         </p>
